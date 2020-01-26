@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bangumi-data": "^0.3.13"
+    "bangumi-data": "^0.3.13",
+    "prettyjson": "^1.2.1"
   }
 }

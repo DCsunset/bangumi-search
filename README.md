@@ -1,5 +1,9 @@
 # bangumi-search
 
+[![npm](https://img.shields.io/npm/v/bangumi-search.svg)](https://www.npmjs.com/package/bangumi-search)
+[![GitHub](https://img.shields.io/github/license/DCsunset/bangumi-search.svg)](https://github.com/DCsunset/bangumi-search/blob/master/LICENSE)
+
+
 It is a wrapper for [bangumi-data](https://github.com/bangumi-data/bangumi-data),
 used for searching anime names in the database.
 

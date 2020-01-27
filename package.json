@@ -1,18 +1,37 @@
 {
   "name": "bangumi-search",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a wrapper for bangumi-data",
+  "main": "./dist/main.js",
+  "files": [
+    "dist/*",
+    "*.json"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "bangumi",
+    "anime",
+    "search"
+  ],
+  "author": "DCsunset",
+  "license": "MIT",
+  "bin": {
+    "bangumi-search": "./index.js"
+  },
   "dependencies": {
     "bangumi-data": "^0.3.13",
     "lodash": "^4.17.15",
     "prettyjson": "^1.2.1",
     "yargs": "^15.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCsunset/bangumi-search"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }

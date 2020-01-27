@@ -1,6 +1,6 @@
 {
   "name": "bangumi-search",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "bangumi-data": "^0.3.13",
-    "prettyjson": "^1.2.1"
+    "lodash": "^4.17.15",
+    "prettyjson": "^1.2.1",
+    "yargs": "^15.1.0"
   }
 }

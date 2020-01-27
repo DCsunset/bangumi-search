@@ -1,7 +1,7 @@
 {
   "name": "bangumi-search",
   "version": "0.1.1",
-  "description": "a wrapper for bangumi-data",
+  "description": "a cli and library wrapper for bangumi-data",
   "main": "./dist/main.js",
   "bin": {
     "bangumi-search": "./index.js"
